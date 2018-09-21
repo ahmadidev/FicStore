@@ -1,0 +1,39 @@
+{
+	"variables": [],
+	"info": {
+		"name": "FicStore",
+		"_postman_id": "beb1f8c9-7ecc-fb56-8cf4-8443cfff8b88",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Category",
+			"description": "",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"url": "{{FicStore_base}}/api/Category",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetCategoryProducts",
+					"request": {
+						"url": "{{FicStore_base}}/api/Category/2",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
