@@ -13,7 +13,7 @@ namespace FicStore.Business.Queries.GetAllCategories
             CategoryRepository = categoryRepository;
         }
 
-        public List<CategoryDto> Execute()
+        public IEnumerable<CategoryDto> Execute()
         {
             var categories = CategoryRepository.GetAll().ToList();
             var result = new List<CategoryDto>();

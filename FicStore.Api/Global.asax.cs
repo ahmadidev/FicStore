@@ -7,6 +7,7 @@ namespace FicStore.Api
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            IocConfig.Config(GlobalConfiguration.Configuration);
         }
     }
 }
