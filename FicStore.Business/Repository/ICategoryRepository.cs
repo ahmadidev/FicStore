@@ -1,0 +1,10 @@
+﻿using System.Collections.Generic;
+using FicStore.Business.Entity;
+
+namespace FicStore.Business.Repository
+{
+    public interface ICategoryRepository
+    {
+        IEnumerable<Category> GetAll();
+    }
+}
